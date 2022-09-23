@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!--關鍵字-->
+		<meta name="keywords" content="K&P Development Co. Ltd, K&P">
+		<!--敘述-->
+		<meta name="description" content="">
+		<!--編寫者-->
+		<meta name="author" content="K&P Development">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>K&P Development Co.,Ltd-Home</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+		<!--Aos animaiton-->
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<style>
+		* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		
+		font-size: 100%;
+		font-family: 'Rubik', sans-serif;
+		box-sizing: border-box;
+		}
+		nav li {
+		display:inline-block;
+		}
+		nav li a{
+		line-height:4;
+		font-size: 16px;
+		padding: 5px 15px !important;
+		}
+		nav li .top-bot {
+		display:block;
+		float:right;
+		color:white;
+		padding: 0px 20px !important;
+		margin: 5px 0px;
+		font-weight: bold;
+		font-size: 16px;
+		}
+		nav li .bot {
+		display:block;
+		float:left;
+		color:white;
+		font-weight: bold;
+		}
+		nav li .p-size {
+		width: 0px;
+		height: 0px;
+		display: none;
+		}
+		p {
+		font-size: 1em;
+		margin: 0px;
+		}
+		.mainnav {
+		top:0px;
+		position: fixed;
+		background-color:#FFB300;
+		z-index: 99;
+		}
+		.mrb-5 {
+		margin-bottom: 5px;
+		}
+		.mrt-30 {
+		margin-top: 30px;
+		}
+		.mrb-30 {
+		margin-bottom: 30px;
+		}
+		.mrb-60 {
+		margin-bottom: 60px;
+		}
+		.mrt-80 {
+		margin-top: 80px;
+		}
+		.mrb-80 {
+		margin-bottom: 80px;
+		}
+		.blank {
+		height: 120px;
+		}
+		.blank2 {
+		height: 80px;
+		}
+		.a-card {
+		padding: 0px 0px 0px 0px;
+		font-size: 1.5em;
+		}
+		.c-card {
+		width: 100%;
+		height: 500px;
+		display: block;
+		padding: 20px 20px;
+		overflow: hidden;
+		}
+		.f-card {
+		bottom: 0px;
+		background-color: #333;
+		}
+		.f-card p{
+		float: right;
+		font-size: 12px;
+		color: white;
+		padding: 10px 60px 10px 0px;
+		}
+		.p-card {
+		padding:20px 20px;
+		}
+		.c-img {
+		top: 5px;
+		padding: 5px;
+		width: 150px;
+		height: 150px;
+		margin-bottom: 40px;
+		}
+		#map {
+		height: 500px;
+		width: 100%;
+		padding: 0px;
+		background-color: #a2cd5a;
+		}
+		.shadow {
+		box-shadow: 0px 0px 30px -6px rgba(0,0,0,0.75);
+		}
+		.carousel-inner>.item>img {
+		width: 1140px;
+		height: 550px;
+		}
+		table {
+		width: 100%;
+		}
+		th, td {
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+		}
+		.p-card a img {
+		border-radius: 15px;
+		box-shadow: 2.5px 4px 8px 2.5px rgba(0,0,0,0.2);
+		}
+		.p-card a {
+		box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 15px;
+		}
+		.p-card a :hover {
+		box-shadow: 5px 8px 16px 5px rgba(0,0,0,0.2);
+		}
+		.borde2 {
+		width: 0px;
+		height: 0px;
+		display: none;
+		}
+		
+		@media screen and (min-width: 360px) and (max-width: 430px) {
+		nav li .l-size {
+		display: none;
+		}
+		nav li .p-size {
+		display: inline-table;
+		}
+		.c-img {
+		margin-bottom: 25px;
+		width: 100px;
+		height: 100px;
+		}
+		nav li a{
+		line-height:4;
+		font-size: 10px !important;
+		padding: 10px 5px !important;
+		}
+		nav li .top-bot {
+		display:block;
+		float:right;
+		color:white;
+		font-size: 10px;
+		padding: 0px 10px !important;
+		margin: 10px 0px;
+		}
+		.carousel-inner>.item>img {
+		width: 1140px;
+		height: auto;
+		}
+		.blank {
+		height: 74px;
+		}
+		.c-card p{
+		font-size: 8px;
+		}
+		.c-card {
+		padding: 12px 12px;
+		height: 450px;
+		}
+		#map {
+		height: 250px;
+		width: 100%;
+		padding: 0px;
+		background-color: #a2cd5a;
+		}
+		.a-card {
+		font-size: 1em;
+		}
+		.p-c-size {
+		padding: 0px 5px !important;
+		}
+		.mrt-80 {
+		margin-top: 15px;
+		}
+		.mrb-60 {
+		margin-bottom: 30px;
+		}
+		.blank2 {
+		height: 70px;
+		}
+		.borde2 {
+		display:inline-table;
+		}
+		.borde {
+		display: none;
+		}
+		.p-card {
+		padding:0;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="cotianer-fluid">
+			<!--選單-->
+			<div class="col-md-12 col-xs-12 mainnav">
+				<nav class="nav">
+					<li><a class="bot p-size" href="">
+						<img src="img/Home/logo/logo2.png" width=35px; height=30px; style="padding-right: 5px;" alt="">
+					K&P</a></li>
+					<li><a class="bot l-size" href="">
+						<img src="img/Home/logo/logo2.png" width=55px; height=50px; style="padding-right: 5px;" alt="">
+					K&P Development Co.,Ltd.</a></li>
+					<li><a class="bot" href="#about-us">
+					ABOUT US</a></li>
+					<li><a class="bot" href="#products">
+					PRODUCTS</a></li>
+					<li><a class="bot" href="#contact-us">
+					CONTACT US</a></li>
+					<li><a class="top-bot" href="#web-top">
+					TOP</a></li>
+				</nav>
+			</div>
+		</div>
+		<!--內容-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 blank" id="web-top"></div>
+				<!--carsouel-->
+				<div class="col-md-12 col-xs-12">
+					<div class="carousel slide" id="myslider" data-ride="carousel">
+						<div class="carousel-inner">
+							<ol class="carousel-indicators">
+								<li data-target="#myslider" data-slide-to="0" class="active"></li>
+								<li data-target="#myslider" data-slide-to="1"></li>
+								<li data-target="#myslider" data-slide-to="2"></li>
+								<li data-target="#myslider" data-slide-to="3"></li>
+								<li data-target="#myslider" data-slide-to="4"></li>
+							</ol>
+							<div class="item active">
+								<img class="img-responsive" src="img/Home/carousel/ratchet handle.jpg" alt="">
+								<div class="carousel-caption"></div>
+							</div>
+							<div class="item">
+								<img class="img-responsive" src="img/Home/carousel/15W LED LIGHT.jpg" alt="">
+							</div>
+							<div class="item">
+								<img class="img-responsive" src="img/Home/carousel/Auto Feeder  & Screw.jpg" alt="">
+							</div>
+							<div class="item">
+								<img class="img-responsive" src="img/Home/carousel/Pneumatic Tool & Accessory.jpg" alt="">
+							</div>
+							<div class="item">
+								<img class="img-responsive" src="img/Home/carousel/packing machine.jpg" alt="">
+							</div>
+						</div>
+						<a class="left carousel-control" href="#myslider" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#myslider" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!--Smooth連結-->
+			<div class="col-md-12 blank2" id="about-us"></div>
+			<!--關於我們-->
+			<div class="col-md-12 col-xs-12 mrb-60">
+				<div class="a-card">
+					<hr>
+					<h1 style="margin-bottom: 30px; font-weight:bold;">About us</h1>
+					<p>
+						K&P Development Co.,Ltd.(K&P) was founded in 2012.   All of our members has over 20 years’ experience on pneumatic, electric & hand tool field.    Except for OEM & product sourcing, K&P also offer ODM service, we have our own RD team & cooperated sub-suppliers to make product design and production to fit customer’s demand.
+						Our strategy is to keep “sincere, professional, quick service, enthusiasm” to serve our customers.   By a wide and strong sourcing ability, high production efficiency, & reliable quality control to help customer minimize the cost and increasing market competitiveness.
+						We sincerely to invite you to be our partner to create mutual benefit together.
+					</p>
+					<hr>
+				</div>
+			</div>
+			<!--文宣圖1-->
+			<div class="borde">
+				<div class="col-md-6" data-aos="fade-right" data-aos-anchor="#borde1">
+					<div class="row">
+						<img class="img-responsive" src="img/Home/borde/borde1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<!--文宣圖2-->
+			<div class="borde">
+				<div class="col-md-6" data-aos="fade-left" id="borde1">
+					<div class="row">
+						<img class="img-responsive" src="img/Home/borde/borde2.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="borde2">
+				<div class="col-md-6" data-aos="flip-left" data-aos-anchor="#borde2">
+					<div class="row">
+						<img class="img-responsive" src="img/Home/borde/borde1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<!--文宣圖2-->
+			<div class="borde2">
+				<div class="col-md-6" data-aos="flip-right" data-aos-delay="200" id="borde2">
+					<div class="row">
+						<img class="img-responsive" src="img/Home/borde/borde2.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<!--smooth標點-->
+			<div class="col-md-12 col-xs-12 blank2" id="products"></div>
+			<!--product連結-->
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up"><div class="p-card"><a href="Product-Pnumatic tool & Acessories.html"><img src="img/Home/icon/icon-air.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="100"><div class="p-card"><a href="Product-Electric Tool Acessories.html"><img src="img/Home/icon/icon-elc.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="200"><div class="p-card"><a href="Product-hand tool.html"><img src="img/Home/icon/icon-ht.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="300"><div class="p-card"><a href="Product-LED.html"><img src="img/Home/icon/icon-led.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="400"><div class="p-card"><a href="Product-OEM ODM.html"><img src="img/Home/icon/icon-oem.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="500"><div class="p-card"><a href="Product-fastener.html"><img src="img/Home/icon/icon-tg.jpg" class="img-responsive" alt=""></a></div></div>
+			<div class="col-md-3 col-xs-3 mrb-5 p-c-size" data-aos="fade-up" data-aos-delay="600"><div class="p-card"><a href="Product-others.html"><img src="img/Home/icon/icon-other.jpg" class="img-responsive" alt=""></a></div></div>
+			<!--smooth標點-->
+			<div class="col-md-12 col-xs-12 blank2" id="contact-us"></div>
+			<!--Google地圖-->
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1819.9995405888424!2d120.68655409183064!3d24.171764998888502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917dd3a13f73d%3A0x979828bcb457dd89!2sNo.+698%2C+Section+4%2C+Wenxin+Road%2C+Beitun+District%2C+Taichung+City%2C+406!5e0!3m2!1sen!2stw!4v1501483380224" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--google map size(640*450px) -->
+				</div>
+			</div>
+			<!--聯絡資訊-->
+			<div class="col-md-6 col-xs-12" style="background-image: url(img/Home/background/contemporary_china.png); background-repeat: repeat-x repeat-y;background-color:rgba(0, 0, 0, 0.5);">
+				<div class="row">
+					<div class="c-card">
+						<!--QR code-->
+						<img class="shadow c-img" src="./img/Home/QR/SNUFT9WV9V.png">
+						<!--informations-->
+						<table>
+							<tr>
+								<th>TEL :</th>
+								<td>+886-4-22389698</td>
+							</tr>
+							<tr>
+								<th>FAX:</th>
+								<td>+886-4-22389669</td>
+							</tr>
+							<tr>
+								<th>E-MAIL:</th>
+								<td>sales@kpdc.com.tw</td>
+							</tr>
+							<tr>
+								<th>ADDRESS:</th>
+								<td>4F.-3, No.698, Sec. 4,Wenxin RD.,Beitun Dist., Taichung City 40651, Taiwan(R.O.C.)</td>
+							</tr>
+							<tr>
+								<th>BUSINESS TIME:</th>
+								<td>Morning: 9:00 AM ~ 12:00 PM <br> Afternoon:1:30 PM ~ 6:00 PM <br> MON~FRI</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 f-card mrt-80">
+				<p>©Copyright 2018,K&P Development Co.,Ltd.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--Boostrap3-->
+	<script src="js/bootstrap.min.js"></script>
+	<!--Plug in-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--Smooth Scroll-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	// Select all links with hashes
+	$('a[href*="#"]')
+	// Remove links that don't actually link to anything
+	.not('[href="#"]')
+	.not('[href="#0"]')
+	.click(function(event) {
+	// On-page links
+	if (
+	location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+	&&
+	location.hostname == this.hostname
+	) {
+	// Figure out element to scroll to
+	var target = $(this.hash);
+	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	// Does a scroll target exist?
+	if (target.length) {
+	// Only prevent default if animation is actually gonna happen
+	event.preventDefault();
+	$('html, body').animate({
+	scrollTop: target.offset().top
+	}, 1000, function() {
+	// Callback after animation
+	// Must change focus!
+	var $target = $(target);
+	$target.focus();
+	if ($target.is(":focus")) { // Checking if the target was focused
+	return false;
+	} else {
+	$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+	$target.focus(); // Set focus again
+	};
+	});
+	}
+	}
+	});</script>
+	<!--Aos animation-->
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script>
+	AOS.init();
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113497007-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-113497007-1');
+	</script>
+</body>
+</html>
