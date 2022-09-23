@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="refresh" content="30">\
+		<!--關鍵字-->
+		<meta name="keywords" content="K&P Development Co. Ltd, K&P">
+		<!--敘述-->
+		<meta name="description" content="">
+		<!--編寫者-->
+		<meta name="author" content="K&P Development">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>K&P-Electric Tool Acessories</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+		<style>
+		* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font-family: 'Rubik', sans-serif;
+		box-sizing: border-box;
+		}
+		p {
+		font-size: 1em;
+		margin: 0px;
+		}
+		table {
+		width: 100%;
+		}
+		th, td {
+		padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+		}
+		.mainnav {
+		top:0px;
+		position: fixed;
+		background-color:#FFB300;
+		z-index: 99;
+		}
+		nav li {
+		display:inline-block;
+		}
+		nav li a{
+		line-height:4;
+		font-size: 16px;
+		padding: 5px 15px !important;
+		}
+		nav li .top-bot {
+		display:block;
+		float:right;
+		color:white;
+		padding: 0px 20px !important;
+		margin: 5px 0px;
+		font-weight: bold;
+		font-size: 16px;
+		}
+		nav li .bot {
+		display:block;
+		float:left;
+		color:white;
+		font-weight: bold;
+		}
+		nav li .p-size {
+		width: 0px;
+		height: 0px;
+		display: none;
+		}
+		.mrt-30 {
+		margin-top: 30px;
+		}
+		.mrb-30 {
+		margin-bottom: 30px;
+		}
+		.mrt-80 {
+		margin-top: 80px;
+		}
+		.mrb-80 {
+		margin-bottom: 80px;
+		}
+		.mrb-110 {
+		margin-bottom: 110px;
+		}
+		.blank {
+		height: 120px;
+		}
+		.a-card {
+		padding: 30px 0px 50px 0px;
+		}
+		.c-card {
+		width: 100%;
+		height: 370px;
+		display: block;
+		padding: 20px 20px;
+		overflow: hidden;
+		}
+		.c-card2 {
+		width: 100%;
+		height: 450px;
+		display: block;
+		padding: 100px 75px;
+		}
+		.f-card {
+		bottom: 0px;
+		background-color: #333;
+		}
+		.f-card p{
+		float: right;
+		font-size: 12px;
+		color: white;
+		padding: 10px 60px 10px 0px;
+		}
+		.c-img {
+		margin-bottom: 0px;
+		padding: 10px 10px;
+		width: 100px;
+		height: 100px;
+		}
+		#map {
+		height: 370px;
+		width: 100%;
+		padding: 0px;
+		background-color: #a2cd5a;
+		}
+		.shadow {
+		box-shadow: 0px 0px 30px -6px rgba(0,0,0,0.75);
+		}
+		.carousel-inner>.item>img {
+		width: 1140px;
+		height: 650px;
+		}
+		.p-card {
+		box-shadow: 5px 5px 8px 5px rgba(0,0,0,0.2);
+		transition: 0.3s;
+		border-radius: 10px;
+		background-color: #57BAF9;
+		}
+		.p-card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+		.p-card img {
+		border-radius: 5px 5px 0 0;
+		height: 225px;
+		}
+		.p-3-container, .p-container {
+		padding: 15px;
+		text-align: center;
+		height: 70px;
+		}
+		#line-h2 ,#line-h1 ,#line-h225 ,#line-hs{
+		line-height: 3;
+		}
+		#line-h4 {
+		line-height: 1.5;
+		}
+		@media screen and (min-width: 360px) and (max-width: 430px) {
+		nav li .l-size {
+		display: none;
+		}
+		nav li .p-size {
+		display: inline-table;
+		}
+		.c-img {
+		margin-bottom: 0px;
+		padding: 10px 10px;
+		width: 80px;
+		height: 80px;
+		}
+		nav li a{
+		line-height:4;
+		font-size: 10px;
+		padding: 10px 5px !important;
+		}
+		nav li .top-bot {
+		display:block;
+		float:right;
+		color:white;
+		font-size: 10px;
+		padding: 0px 10px !important;
+		margin: 10px 0px;
+		}
+		.carousel-inner>.item>img {
+		width: 1140px;
+		height: auto;
+		}
+		.blank {
+		height: 74px;
+		}
+		.c-card p{
+		font-size: 8px;
+		}
+		.c-card {
+		padding: 12px 12px;
+		}
+		.p-card img {
+		border-radius: 5px 5px 0 0;
+		height: 120px !important;
+		}
+		.p-3-container {
+		padding: 5px 15px;
+		text-align: center;
+		height: 70px;
+		}
+		.p-container {
+		padding: 15px;
+		text-align: center;
+		height: 70px;
+		}
+		#line-h2 {
+		line-height: 1.5;
+		}
+		#line-h1 {
+		line-height: 3;
+		}
+		#line-h225 {
+		line-height: 2.25;
+		}
+		#line-hs {
+		line-height: 1.5;
+		}
+		#line-h4 {
+		line-height: 1.1;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="cotianer-fluid">
+			<!--選單-->
+			<div class="col-md-12 col-xs-12 mainnav">
+				<nav class="nav">
+					<li><a class="bot p-size" href="index.html">
+						<img src="img/Home/logo/logo2.png" width=35px; height=30px; style="padding-right: 5px;" alt="">
+					K&P</a></li>
+					<li><a class="bot l-size" href="index.html">
+						<img src="img/Home/logo/logo2.png" width=55px; height=50px; style="padding-right: 5px;" alt="">
+					K&P Development Co.,Ltd.</a></li>
+					<li><a class="bot" href="index.html#about-us">
+					ABOUT US</a></li>
+					<li><a class="bot" href="index.html#products">
+					PRODUCTS</a></li>
+					<li><a class="bot" href="index.html#contact-us">
+					CONTACT US</a></li>
+					<li><a class="top-bot" href="#web-top">
+					TOP</a></li>
+				</nav>
+			</div>
+		</div>
+		<!--內容-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 blank" id="web-top"></div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/6drill easy chuck.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>6 DRILL EASY CHUCK</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/Auto Feeder Attachment.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>AUTO FEEDER ATTACHMENT</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/BIT.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h1">
+							<p><b>BIT</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/Chuck & Socket Adaptor.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>CHUCK & SOCKET ADAPTOR</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/Hot Melt Glue Gun.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>HOT MELT GLUE GUN</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/hot-melt-glue-stick.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>HOT MELT GLUE STICK</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/Nut Driver.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h1">
+							<p><b>NUT DRIVER</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 mrb-30">
+					<div class="p-card">
+						<img src="img/Products/Electric Tool Acessories/Quick Release Bit Socket.jpg" class="img-responsive" alt="">
+						<div class="p-container" id="line-h2">
+							<p><b>QUICK RELEASE BIT SOCKET</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 f-card ">
+					<p>©Copyright 2018,K&P Development Co.,Ltd.</p>
+				</div>
+			</div>
+		</div>
+		<!--Boostrap3-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--Smooth Scrolling-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		// Select all links with hashes
+		$('a[href*="#"]')
+		// Remove links that don't actually link to anything
+		.not('[href="#"]')
+		.not('[href="#0"]')
+		.click(function(event) {
+		// On-page links
+		if (
+		location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+		&&
+		location.hostname == this.hostname
+		) {
+		// Figure out element to scroll to
+		var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		// Does a scroll target exist?
+		if (target.length) {
+		// Only prevent default if animation is actually gonna happen
+		event.preventDefault();
+		$('html, body').animate({
+		scrollTop: target.offset().top
+		}, 1000, function() {
+		// Callback after animation
+		// Must change focus!
+		var $target = $(target);
+		$target.focus();
+		if ($target.is(":focus")) { // Checking if the target was focused
+		return false;
+		} else {
+		$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		$target.focus(); // Set focus again
+		};
+		});
+		}
+		}
+		});
+		</script>
+	</body>
+</html>
